@@ -3,6 +3,7 @@
 It combines Machine Learning + FastAPI + React (Vite) to deliver real-time agricultural insights.
 
 🚀 Features
+
 🌱 Crop Recommendation
 - Predicts the best crop based on soil nutrients and weather
 - Provides Top 3 crop suggestions with confidence scores
@@ -137,3 +138,11 @@ uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}
 ```
 
 One process serves both the UI and API. Set `VITE_API_URL` before building only if the API is on a different host.
+
+
+## Snapshots
+
+<img width="1918" height="876" alt="Screenshot 2026-04-06 142218" src="https://github.com/user-attachments/assets/dd3359cd-3565-46e9-8e37-9b7e11b5760b" />
+
+<img width="1901" height="865" alt="Screenshot 2026-04-06 143248" src="https://github.com/user-attachments/assets/13c01b93-95c6-41f9-94a6-7831d0f8f69c" />
+
